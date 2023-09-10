@@ -1,0 +1,10 @@
+h1 {
+  margin: 40px;
+  padding: 40px;
+  border: 16px double black;
+}
+
+h1:hover{
+  background-color: rgb(240, 168, 231) ;
+  border: 16px double white;
+}
