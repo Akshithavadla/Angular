@@ -1,0 +1,13 @@
+
+<div class="ChildClass flex-container">
+<div>
+    <img *ngIf="ParentToChild" src="./assets/envelopeOpened.jpeg" width="200" height="200">
+    <img *ngIf="!ParentToChild" src="./assets/envelopeClosed.jpeg" width="200" height="200">
+</div>
+
+<div>
+  <button (click)="buttonClickedMethodToParent($event)" class="button-style">
+    <img src="./assets/envelopeClosed.jpeg" width="200" height="200">
+  </button>
+</div>
+</div>

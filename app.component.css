@@ -1,5 +1,9 @@
-.ExampleClass{
-  margin: 40px;
-  padding: 40px;
-  border: 16px double;
+.AppClass{
+  margin: 10%;
+}
+
+.flex-container
+{
+  display: flex;
+  font-family: "Sofia", sans-serif;
 }

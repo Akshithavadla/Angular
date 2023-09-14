@@ -1,0 +1,15 @@
+.ChildClass{
+  margin: 40px 40px 40px 0px;
+  padding: 40px;
+  border: 2px dashed;
+}
+
+.flex-container{
+  display:flex;
+  flex-direction:column;
+}
+
+.button-style:hover{
+  background-color: #c4cccf;
+  color: white;
+}

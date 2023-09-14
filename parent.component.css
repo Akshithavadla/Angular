@@ -1,0 +1,16 @@
+.ParentClass{
+  margin: 40px 0px 40px 40px;
+  padding: 40px;
+  border: 2px dashed;
+}
+
+.flex-container{
+  display:flex;
+  flex-direction:row;
+  margin: 0% 0% 20% 20%;
+}
+
+.button-style:hover{
+  background-color: #c4cccf;
+  color: white;
+}

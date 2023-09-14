@@ -1,0 +1,18 @@
+
+<div class="flex-container">
+  <div class="ParentClass">
+    <div>
+      <button (click)="buttonClickedMethodToChild()" class="button-style">
+        <img src="./assets/envelopeClosed.jpeg" width="200" height="200">
+       </button>
+    </div>
+    <div>
+      <img *ngIf="ChildToParent" src="./assets/envelopeOpened.jpeg" width="200" height="200">
+      <img *ngIf="!ChildToParent" src="./assets/envelopeClosed.jpeg" width="200" height="200">
+  </div>
+  </div>
+  <div class="ChildClass">
+    <app-child [ParentToChild]="ParentToChild" (ChildToParent)="buttonClickedMethodFromChild($event)"></app-child>
+  </div>
+</div>
+
